@@ -90,17 +90,8 @@ A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizan
   *DEL*
   - **Delete by Id:** https://api-tinnova-dev.herokuapp.com/cars/14 (Deleta registro por Id)
 
-    Modelo de requisição JSON retornada:
-      {
-        "id": 2,
-        "vehicle": "serie 1",
-        "brand": "bmw",
-        "year": 2017,
-        "description": "Preço sugerido: A partir de R$ 198.950",
-        "sold": "UNSOLD",
-        "created": "2019-07-21T03:42:10Z",
-        "update": "2010-06-21T03:41:10Z"
-      }
+
+  Modelo de requisição JSON retornada em **Checking endpoints with Postman**
 
 ## :memo: License
 
