@@ -81,13 +81,13 @@ A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizan
   - **Find by Decade:** https://api-tinnova-dev.herokuapp.com/cars/decade/1980 (Busca distribuições de veículos por década de fabricação)
   - **Find by Brand:** https://api-tinnova-dev.herokuapp.com/cars/brand/bmw (Busca distribuições de veículos por fabricante)
   
-    *POST*
+  *POST*
   - **Insert Car:** https://api-tinnova-dev.herokuapp.com/cars (Insere novo registro)
   
-    *PUT*
+  *PUT*
   - **Update by Id:** https://api-tinnova-dev.herokuapp.com/cars/2 (Atualiza registro por Id)
   
-    *DEL*
+  *DEL*
   - **Delete by Id:** https://api-tinnova-dev.herokuapp.com/cars/14 (Deleta registro por Id)
 
     Modelo de requisição JSON retornada:
