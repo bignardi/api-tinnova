@@ -18,7 +18,7 @@
 
 ## :bookmark: About this project
 
-A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizando Spring Boot, JPA/Hibernate gerenciados pelo Mavem, utilizando técnicas DevOps para implantação em nuvem usando a plataforma Heroku.
+A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizando Spring Boot, JPA / Hibernate gerenciados pelo Maven, utilizando técnicas DevOps para implantação em nuvem usando a plataforma Heroku.
 
 ## :rocket: Technologies used
 
@@ -73,18 +73,21 @@ A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizan
 
   São estes os endpoits responsáveis pelas requisições realizadas na aplicação:
 
-     *GET*
+    *GET*
   - **All Cars:** https://api-tinnova-dev.herokuapp.com/cars (Busca por todos os registros)
   - **Find by Id:** https://api-tinnova-dev.herokuapp.com/cars/2 (Busca registros por Id)
   - **Find all Unsold:** https://api-tinnova-dev.herokuapp.com/cars/unsold (Busca somente veículos não vendidos)
   - **Find all Sold:** https://api-tinnova-dev.herokuapp.com/cars/sold (Busca somente veículos vendidos)
   - **Find by Decade:** https://api-tinnova-dev.herokuapp.com/cars/decade/1980 (Busca distribuições de veículos por década de fabricação)
   - **Find by Brand:** https://api-tinnova-dev.herokuapp.com/cars/brand/bmw (Busca distribuições de veículos por fabricante)
-     *POST*
+  
+    *POST*
   - **Insert Car:** https://api-tinnova-dev.herokuapp.com/cars (Insere novo registro)
-     *PUT*
+  
+    *PUT*
   - **Update by Id:** https://api-tinnova-dev.herokuapp.com/cars/2 (Atualiza registro por Id)
-     *DEL*
+  
+    *DEL*
   - **Delete by Id:** https://api-tinnova-dev.herokuapp.com/cars/14 (Deleta registro por Id)
 
     Modelo de requisição JSON retornada:
