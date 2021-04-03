@@ -28,7 +28,7 @@ A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizan
 - Hibernate (Bean Validation)
 - Banco de dados H2 (Para validações de testes)
 - Maven Version 4.0.0
-- JUnit 5.7.1
+- JUnit 5.7.1 (Para testes unitários)
 - PostgreSQL database Version 13
 
 ## :wrench: Tools
@@ -69,7 +69,7 @@ A **API Tinnova** é um projeto Web Service para cadastro de veículos. Utilizan
   
 - ### **Testing**
 
-  Conforme demostrado em **Backend Structure**, a API é dividida em três camadas: Repository / Service / Resource(Controller), aonde a camada Resouce contém todos os endpoints implementados, pois se trata da camada controladora.
+  Conforme demostrado em **Backend Structure**, a API é dividida em três camadas: Repository / Service / Resource(Controller), aonde a camada Resouce contém todos os endpoints implementados, pois se trata da camada controladora. No package **Config**, há uma classe **TestConfig** já configurada para subir junto com o banco H2, alguns dados já inseridos.
 
   São estes os endpoits responsáveis pelas requisições realizadas na aplicação:
 
